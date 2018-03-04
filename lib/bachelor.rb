@@ -50,5 +50,5 @@ def get_average_age_for_season(data, season)
     num_to_divide = season_array.length
     total = total + season_array["age"].to_i
   end
-  total / num_to_divide
+  total
 end
